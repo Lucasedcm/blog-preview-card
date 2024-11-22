@@ -1,4 +1,4 @@
-html {
+html, body {
     height: 100%;
     width: 100%;
     display: flex;
@@ -7,14 +7,6 @@ html {
     background-color: #F4D04E;
 }
 
-body {
-    height: 100%;
-    width: 90%;
-    padding: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .course-container {
     display: flex;
@@ -23,7 +15,7 @@ body {
     flex-direction: column;
     flex-basis: 0;
     box-sizing: content-box;
-    width: 100%;
+    width: 90%;
     padding: 24px;
     border-radius: 20px;
     border-style: solid;
