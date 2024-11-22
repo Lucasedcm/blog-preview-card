@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 0;
+    padding: 24px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    gap: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.course-image {
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.course-tag {
+    background-color: #F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+    align-self: flex-start;
+    font-family: "Figtree";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.course-publishing-date {
+    font-family: "Figtree";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.course-title {
+    font-family: "Figtree";
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.course-author-name {
+    font-family: "Figtree";
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.course-description {
+    font-family: "Figtree";
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #6B6B6B;
+}
+
+.course-author-container {
+    display: flex;
+    align-items: center;
+    align-self: start;
+    gap: 12px;
+}
