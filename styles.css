@@ -16,14 +16,14 @@ body {
     align-items: center;
 }
 
-
-
 .course-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-basis: 0;
+    box-sizing: content-box;
+    width: 100%;
     padding: 24px;
     border-radius: 20px;
     border-style: solid;
