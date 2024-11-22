@@ -65,6 +65,11 @@ html, body {
     letter-spacing: 0px;
 }
 
+.course-title:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
 .course-author-name {
     font-family: "Figtree";
     font-size: 14px;
