@@ -1,13 +1,11 @@
 html, body {
+    width: 90%;
     height: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F4D04E;
-}
-
-body {
-    padding: 0px 24px;
 }
 
 .course-container {
