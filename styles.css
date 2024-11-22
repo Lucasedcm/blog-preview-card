@@ -6,6 +6,10 @@ html, body {
     background-color: #F4D04E;
 }
 
+body {
+    padding: 0px 24px;
+}
+
 .course-container {
     display: flex;
     justify-content: center;
@@ -19,7 +23,6 @@ html, body {
     gap: 24px;
     background-color: #FFFFFF;
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-    width: 90%;
 }
 
 .course-image {
